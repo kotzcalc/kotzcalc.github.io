@@ -27,7 +27,7 @@ $("#calc").submit(function(e){
       for(var i=1;i<s3;i++){
         result = result + (s3-i);
       }
-      for(var i=1;i<s1;i++){
+      for(var i=1;i<s4;i++){
         result = result + (s4-i);
       }
       $(".result_green").html("x"+result+" livros");
@@ -43,7 +43,7 @@ $("#calc").submit(function(e){
       for(var i=1;i<s3;i++){
         result = result + (s3-i);
       }
-      for(var i=1;i<s1;i++){
+      for(var i=1;i<s4;i++){
         result = result + (s4-i);
       }
       $(".result_blue").html("x"+result+" livros");
